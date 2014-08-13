@@ -1,0 +1,18 @@
+#new_post{
+width:550px;
+height:800px;
+margin:auto;
+padding:100px;
+padding-left:150px;
+margin:auto;
+background:blue;
+}
+
+#feature{
+width:490px;
+height:55px;
+position:relative;
+left:108px;
+top:-20px;
+ background:red;
+}
