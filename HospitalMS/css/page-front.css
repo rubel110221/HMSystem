@@ -1,0 +1,198 @@
+body{
+width:100%;
+height:101px;
+margin:0;
+background: url("../resource/bg.png");
+}
+#main{
+margin: auto;
+WIDTH: 960px;
+height: 101px;
+BORDER-TOP-STYLE:none;
+PADDING-TOP: 0px;
+BORDER-RIGHT-STYLE: none;
+BORDER-LEFT-STYLE: none;
+POSITION: relative;
+TOP: 0px;
+TEXT-ALIGN: left;
+BORDER-BOTTOM-STYLE:none;
+
+}
+
+
+a{
+color:green;
+text-decoration:none;
+}
+
+#header_manu{
+margin: auto;
+width: 960px;
+Height: 13px;
+padding: 65px 10px 0px 15px;
+text-indent: 40px;
+font-size:14px;
+
+}
+a:hover {
+text-decoration:underline;
+color:red;
+}
+
+#why_trust1 a:hover{
+color: red;
+}
+
+#header{
+background: url("../resource/top_banar.jpg");
+
+MARGIN: auto;
+WIDTH: 960px;
+Height: 101px;
+BORDER-TOP-STYLE:none;
+PADDING-TOP: 0px;
+BORDER-RIGHT-STYLE: none;
+BORDER-LEFT-STYLE: none;
+POSITION: relative;
+TOP: 0px;
+TEXT-ALIGN: left;
+BORDER-BOTTOM-STYLE:none;
+}
+
+.slider {width:544px
+width:544px;
+height:205px;
+float:left;
+}
+
+#main_service{
+background: url("../resource/bg_main_ser.jpg");
+width:338px;
+height:159px;
+float:left;
+position:relative;
+left:10px;
+font-size: 13px;
+padding-top: 45px;
+padding-left:68px;
+font-weight:bold;
+
+}
+#quick_link{
+background: url("../resource/bg_quick_link.jpg");
+width:312px;
+height:177px;
+position:absolute;
+top:316px;
+padding-top:25px;
+font-size:13px;
+}
+
+#our_physicans{
+background: url("../resource/bg_phy_part.jpg");
+width:272px;
+height:137px;
+float:left;
+position:relative;
+top:12px;
+left:-222px;
+font-size: 13px;
+letter-spacing:0.5px;
+padding:32px 20px;
+text-align: justify;
+}
+ 
+
+ #news_events{
+background: url("../resource/bg_news.jpg");
+width:312px;
+height:168px;
+position:absolute;
+top:529px;
+left:0px;
+font-size: 13px;
+padding-top: 32px;
+}
+
+#why_trust{
+background: url("../resource/bg_about.jpg");
+width:312px;
+height:200px;
+float:left;
+position:relative;
+top:24px;
+left:321px;
+}
+
+#why_trust1{
+width: 295px;
+float:left;
+padding: 3px 3px;
+position:relative;
+top:26px;
+left:5px;
+font-size: 13px;
+text-align: justify;
+}
+
+
+#video{
+width:316px;
+height:200px;
+position: relative;
+top: 24px;
+float:right;
+}
+
+
+#footer  {
+width:1349px;
+height: 106px;
+background:url("../resource/bg_footer.gif");
+position: absolute;
+top:745px;
+}
+
+#footer_menu{
+width: 960px;
+height:30px;
+position:inherit;
+left:193px;
+line-height:0;
+text-align:center;
+color: white;
+font-size:13px;
+}
+
+#footer_menu a{
+text-decoration:none;
+color:white;
+}
+#footer_menu li{display:inline;}
+
+#footer_menu a:hover{
+text-decoration:underline;
+color:green;
+}
+#footer_menu li:after{
+content: '|';
+padding-left:6px;
+padding-right:3px;
+
+}
+#footer_menu li:last-child:after{
+content: none;
+}
+
+#footer_text{
+width:960px;
+height:60px;
+margin:auto;
+position:relative;
+top:19px;
+font-size:13px;
+text-align:center;
+line-height:14px;
+word-spacing:3px;
+}
+
