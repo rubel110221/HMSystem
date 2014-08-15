@@ -1,3 +1,8 @@
+
+#main{
+line-height:30px;
+}
+
 #new_post{
 width:550px;
 height:800px;
@@ -17,6 +22,7 @@ a {
     margin: 3em auto;
     width: 500px;
     overflow: hidden;
+
 }
 
 #tab-container ul.tab-menu li{
@@ -38,8 +44,16 @@ a {
     border-top-right-radius: 3px;
 }
 
+#tab-container ul li:hover{
+	color:blue;
+}
+
+
 .tab-top-border  {
-	border-bottom: 1px solid red;
+	border-bottom: 1px solid #ddc;
+	width:620px;
+	position:relative;
+	left:-35px;
 }
 .tab-content{
     margin: 0 auto;
@@ -49,15 +63,29 @@ a {
     border-top-style: none;
     text-align: left;
     padding: 10px;
-    padding-bottom: 20px;
     font-size: 13px;
     display: none;
-    height: 350px;
+	width:600px;
+    height: 400px;
+	position:relative;
+	left:-35px;
+	
+}
+
+
+#feature-tab ,#picture_gallery-tab{
+text-align:center;
+}
+.tab-content select{
+width:70px;
+}
+#technical-tab input{
+width:70px;
+}
+
+#technical-tab{
+line-height:17px;
 }
 
 
 
-#feature{
-
- background:red;
-}

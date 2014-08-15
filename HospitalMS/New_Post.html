@@ -50,10 +50,8 @@
 			 
 			<div id="list">
 				<ul>
-				    <li><a href="home.html">Home</a></li>
 					<li><a href="">Dashboard</a></li>
-					<li><a href="">Post New Product</a></li>
-					<li><a href="">Post Upcoming Product</a></li>
+					<li><a href="">Post Product</a></li>
 					<li><a href="">Slider</a></li>
 					<li><a href="">Message</a></li>
 					<li><a href="">Career</a></li>
@@ -65,11 +63,14 @@
 			<div id="new_post">
 				<form>
 					<label for="name">Product Title : </label><br/>
-					<input   type="text" name="name" id="name"  style="width: 450px;" /><br/>
-					<label for="name">Category : </label><br/>
-							
-								
-					<select    name="category_dropdown"   style="width: 170px;" >
+					<input   type="text" name="name"  id="name" style="width: 450px;" /><br/>
+					<label for="name">Posting Type: </label><br/>
+					<select  >
+						 <option>New Product</option>
+						<option>Upcoming Product</option>
+					</select><br/>
+					<label >Category : </label><br/>								
+					<select  style="width: 140px;" >
 						 <option>Refrigerator & Freezer</option>
 						<option>Television & Home Video </option>
 						<option>Mobile</option>
@@ -78,11 +79,21 @@
 						<option>Generator</option>
 						<option>Home and Kitchen Appliances</option>
 					</select><br/>
-					<label for="text">Description : </label><br/>
+					<label for="text">Description :(optional)</label><br/>
 					<textarea  id="text" name="comments" cols="54" rows="10">
 					</textarea><br/>
-					Upload a picture:				
+					Upload a picture:(optional)				
 					<input type="file" name="upload_pic"/><br/><br/>	
+					 
+
+
+					
+
+               
+
+
+
+
 
 
 
@@ -108,98 +119,178 @@
 						<table>
 							<tr>
 								<td>type: </td>
-								<td><input   type="text" name="name" id="name"  style="width: 65px;" /></td>
+								<td><select>
+									<option >Direct cool</option>
+									<option >Non Direct</option>
+								</select></td>
 								<td>Gross Volume:(outer)</td>
-								<td><input   type="text" name="name" id="name"  style="width: 65px;" /></td>
+								<td><input  type="text" name="name" id="name"/></td>
 								<td>Gross Volume:</td>
-								<td><input   type="text" name="name" id="name"  style="width: 65px;" /></td>
+								<td><input  type="text" name="name" id="name"/></td>
 							</tr>
 							<tr>
 								<td>Net Volume:</td>
-								<td><input   type="text" name="name" id="name"  style="width: 65px;" /></td>
+								<td><input type="text" name="name" id="name"/></td>
 								<td>Climatic Type:</td>
-								<td><input   type="text" name="name" id="name"  style="width: 65px;" /></td>
+								<td><select>
+									<option >SN</option>
+									<option >N</option>
+									<option >ST</option>
+									<option >T</option>
+								</select></td>
 								<td>Volt/Hz/watt:</td>
-								<td><input   type="text" name="name" id="name"  style="width: 65px;" /></td>
+								<td><select>
+									<option >170-250/50/112</option>
+									<option >170-250/80/112</option>
+								</select></td>
 							</tr>
 							<tr>
-								<td>emperature Control:</td>
-								<td><input   type="text" name="name" id="name"  style="width: 65px;" /></td>
+								<td>Temperature Control:</td>
+								<td><select>
+									<option >Mechanical</option>
+									<option >Manual</option>
+								</select></td>
 								<td>Defrosting (Automatic/Manual):</td>
-								<td><input   type="text" name="name" id="name"  style="width: 65px;" /></td>
+								<td><select>
+									<option >Automatic</option>
+									<option >Manual</option>
+								</select></td>
 								<td>Reversible Door:</td>
-								<td><input   type="text" name="name" id="name"  style="width: 65px;" /></td>
+								<td><select>
+									<option >Yes</option>
+									<option >No</option>
+								</select></td>
 							</tr>
 							<tr>
 								<td>Handle (Recessed/Grip): </td>
-								<td><input   type="text" name="name" id="name"  style="width: 65px;" /></td>
-								<td>Lock: </td>
-								<td><input   type="text" name="name" id="name"  style="width: 65px;" /></td>
-								<td>Refrigerant: </td>
-								<td><input   type="text" name="name" id="name"  style="width: 65px;" /></td>
+								<td><select>
+									<option >Recessed</option>
+									<option >Grip</option>
+								</select></td>
+								<td>Lock:</td>
+								<td><select>
+									<option >Yes</option>
+									<option >No</option>
+								</select></td>
+								<td>Refrigerant:</td>
+								<td><select>
+									<option >R134a</option>
+									<option >R420a</option>
+								</select></td>
 							</tr>
 							<tr>
 								<td>Condenser:</td>
-								<td><input   type="text" name="name" id="name"  style="width: 65px;" /></td>
+								<td><select>
+									<option >copper</option>
+									<option >Non copper</option>
+								</select></td>
 								<td>Evaporator: </td>
-								<td><input   type="text" name="name" id="name"  style="width: 65px;" /></td>
+								<td><select>
+									<option >Aluminium</option>
+									<option >Iron</option>
+								</select></td>
 								<td>Capillary: </td>
-								<td><input   type="text" name="name" id="name"  style="width: 65px;" /></td>
+								<td><select>
+									<option >copper</option>
+									<option >Non copper</option>
+								</select></td>
 							</tr>
 							<tr>
 								<td>Foaming Chemical:</td>
-								<td><input   type="text" name="name" id="name"  style="width: 65px;" /></td>
+								<td><select>
+									<option >Pentane [Eco-Friendly (100% CFC & HCFC Free) Green Technology]</option>
+									<option >N/A</option>
+								</select></td>
 								<td>Shelf (Material/No.): </td>
-								<td><input   type="text" name="name" id="name"  style="width: 65px;" /></td>
+								<td><select>
+									<option >Wire/2</option>
+									<option >N/A</option>
+									</select></td>
 								<td>Door Basket:</td>
-								<td><input   type="text" name="name" id="name"  style="width: 65px;" /></td>
+								<td><select>
+									<option >PS/3</option>
+									<option >N/A</option>
+									</select></td>
 							</tr>
 							<tr>
-								<td>Interior Lamp: </td>
-								<td><input   type="text" name="name" id="name"  style="width: 65px;" /></td>
-								<td>Vegetable Crisper: </td>
-								<td><input   type="text" name="name" id="name"  style="width: 65px;" /></td>
-								<td>Vegetable Crisper Cover: </td>
-								<td><input   type="text" name="name" id="name"  style="width: 65px;" /></td>
+								<td>Interior Lamp:</td>
+								<td><select>
+									<option >Yes</option>
+									<option >No</option>
+									</select></td>
+								<td>Vegetable Crisper:</td>
+								<td><select>
+									<option >Yes</option>
+									<option >No</option>
+									</select></td>
+								<td>Vegetable Crisper Cover:</td>
+								<td><select>
+									<option >Yes</option>
+									<option >No</option>
+									</select></td>
 							</tr>
 							<tr>
 								<td>Egg Tray or Pocket:  </td>
-								<td><input   type="text" name="name" id="name"  style="width: 65px;" /></td>
+								<td><select>
+									<option >Yes</option>
+									<option >No</option>
+									</select></td>
 								<td>Can Storage Dispenser:</td>
-								<td><input   type="text" name="name" id="name"  style="width: 65px;" /></td>
-								<td>Vegetable Crisper Cover: </td>
-								<td><input   type="text" name="name" id="name"  style="width: 65px;" /></td>
-							</tr>
-							<tr>
+								<td><select>
+									<option >Yes</option>
+									<option >No</option>
+									</select></td>
 								<td>Ice/cold water Dispenser:  </td>
-								<td><input   type="text" name="name" id="name"  style="width: 65px;" /></td>
+								<td><select>
+									<option >Normal</option>
+									<option >N/A</option>
+									</select></td>
+							</tr>
+							<tr>
 								<td>Shelf (Material/No.): </td>
-								<td><input   type="text" name="name" id="name"  style="width: 65px;" /></td>
+								<td><select>
+									<option >Wire/1</option>
+									<option >N/A</option>
+									</select></td>
 								<td>Drawer:</td>
-								<td><input   type="text" name="name" id="name"  style="width: 65px;" /></td>
-							</tr>
-							<tr>
+								<td><select>
+									<option >Yes</option>
+									<option >No</option>
+									</select></td>
 								<td>Door Basket: </td>
-								<td><input   type="text" name="name" id="name"  style="width: 65px;" /></td>
+								<td><select>
+									<option >Yes</option>
+									<option >No</option>
+									</select></td>
+							</tr>
+							<tr>								
 								<td>Interior Lamp: </td>
-								<td><input   type="text" name="name" id="name"  style="width: 65px;" /></td>
+								<td><select>
+									<option >Yes</option>
+									<option >No</option>
+									</select></td>
 								<td>Cooling Effect:</td>
+								<td><select>
+									<option >Freezer-Cabinet Less than -18˚C @ Ambient 28°C</option>
+									<option >N/A</option>
+									</select></td>
+								<td>Width/mm:(Net) </td>
 								<td><input   type="text" name="name" id="name"  style="width: 65px;" /></td>
 							</tr>
-							<tr>
-								<td>Width/mm: </td>
+							<tr>								
+								<td>Depth/mm:(Net) </td>
 								<td><input   type="text" name="name" id="name"  style="width: 65px;" /></td>
-								<td>Depth/mm: </td>
+								<td>Height/mm:(Net) </td>
 								<td><input   type="text" name="name" id="name"  style="width: 65px;" /></td>
-								<td>Height/mm: </td>
+								<td>Width/mm:(Packing)</td>
 								<td><input   type="text" name="name" id="name"  style="width: 65px;" /></td>
 							</tr>
-							<tr>
-								<td>Width/mm:</td>
+							<tr>								
+								<td>Depth/mm:(Packing) </td>
 								<td><input   type="text" name="name" id="name"  style="width: 65px;" /></td>
-								<td>Depth/mm: </td>
+								<td>Height/mm: (Packing)</td>
 								<td><input   type="text" name="name" id="name"  style="width: 65px;" /></td>
-								<td>Height/mm: </td>
+								<td>Weight/Kg - Net/Packing: </td>
 								<td><input   type="text" name="name" id="name"  style="width: 65px;" /></td>
 							</tr>
 						</table>
@@ -210,16 +301,6 @@
 					</div>
 				</form>
 			</div>
-
-               
-
-
-
-
-
-
-
-
 
 
 
@@ -244,7 +325,7 @@
 			
 			
 			
-		    </div>
+		    
 	
 	
 	
