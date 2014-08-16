@@ -91,6 +91,7 @@ line-height:40px;
 width:960px;
 height:600px;
 margin-left:203px;
+border:1px solid green;
 
 }
 
@@ -105,4 +106,17 @@ background:#2A88C7;
 border:1px solid blue;
 
 }
+/*career start*/
+
+
 /*Slider end*/
+
+#main_carer{
+margin-left:203px;
+WIDTH: 960px;
+height: 1000px;
+border:1px solid green;
+}
+
+
+/*career end*/
