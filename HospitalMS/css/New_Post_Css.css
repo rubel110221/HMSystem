@@ -1,93 +1,27 @@
 
-/*New Post Start*/
-#main{
+/*physicians Start*/
+#main_pshysican{
+margin-left:203px;
+WIDTH: 960px;
+height: 850px;
+top:30px;
+border:1px solid green;
 line-height:30px;
 }
 
-#new_post{
+#physicians{
 width:550px;
-height:800px;
+height:600px;
 margin:auto;
 padding:100px;
 padding-left:150px;
 margin:auto;
 }
-
-a {
-    text-decoration: none;
+#physicians button{
+width:75px;
+height:35px;
 }
-#tab-container{
-    font-family: Arial,  Verdana, Helvetica, sans-serif;
-    font-size: 12px;
-    line-height:14px;
-    margin: 3em auto;
-    width: 500px;
-    overflow: hidden;
-
-}
-
-#tab-container ul.tab-menu li{
-    display: block;
-    float: left;
-    position: relative;
-    font-weight: 700;
-    padding: 5px 10px 5px 10px;
-    background: #eee;
-    border: 1px solid #ddc;
-    border-bottom: none;
-    border-width: 1px;
-    color: #999;
-    cursor: default;
-    height: 14px;
-    margin-bottom: -1px;
-    margin-right: 5px;
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
-}
-
-#tab-container ul li:hover{
-	color:blue;
-}
-
-
-.tab-top-border  {
-	border-bottom: 1px solid #ddc;
-	width:620px;
-	position:relative;
-	left:-35px;
-}
-.tab-content{
-    margin: 0 auto;
-    background: #efefef;
-    background: #fff;
-    border: 1px solid #ddc;
-    border-top-style: none;
-    text-align: left;
-    padding: 10px;
-    font-size: 13px;
-    display: none;
-	width:600px;
-    height: 400px;
-	position:relative;
-	left:-35px;
-	
-}
-
-
-#feature-tab ,#picture_gallery-tab{
-text-align:center;
-}
-.tab-content select{
-width:70px;
-}
-#technical-tab input{
-width:70px;
-}
-
-#technical-tab{
-line-height:17px;
-}
-/*New Post end*/
+/*physicians end*/
 /*account setting start*/
 
 #ac_setting{
@@ -120,7 +54,6 @@ width:190px;
 }
 
 #button{
-
 word-spacing:190px;
 }
 #button button{
@@ -135,3 +68,41 @@ background:#9999CC;
 }
 
 /*account setting end*/
+
+/*Slider start*/
+
+#slider{
+width:700px;
+height:600px;
+margin:auto;
+}
+
+#slider div{
+width:550px;
+height:250px;
+margin:auto;
+position:relative;
+top:226px;
+margin-left:60px;
+line-height:40px;
+
+}
+#main_slider{
+width:960px;
+height:600px;
+margin-left:203px;
+
+}
+
+#slider button{
+
+position:absolute;
+top:520px;
+left:500px;
+width:80px;
+height:30px;
+background:#2A88C7;
+border:1px solid blue;
+
+}
+/*Slider end*/
