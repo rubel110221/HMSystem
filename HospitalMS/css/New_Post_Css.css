@@ -1,4 +1,5 @@
 
+/*New Post Start*/
 #main{
 line-height:30px;
 }
@@ -86,6 +87,51 @@ width:70px;
 #technical-tab{
 line-height:17px;
 }
+/*New Post end*/
+/*account setting start*/
 
+#ac_setting{
+width:500px;
+height:400px;
+margin:auto;
+position:relative;
+top:60px;
+padding:30px 30px;
+line-height:40px;
+background:#9999CC;
 
+}
+#personal_info{
+width:170px;
+height:400px;
+float:left;
+text-align:right;
+}
+.change_pw{
+width:300px;
+height:400px;
+position:relative;
+left:5px;
+float:left;
 
+}
+.change_pw input{
+width:190px;
+}
+
+#button{
+
+word-spacing:190px;
+}
+#button button{
+width:90px;
+height:30px;
+}
+#main_ac_setting{
+width:960px;
+height:665px;
+margin:auto;
+background:#9999CC;
+}
+
+/*account setting end*/
