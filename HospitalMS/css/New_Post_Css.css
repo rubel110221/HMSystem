@@ -118,5 +118,22 @@ height: 1000px;
 border:1px solid green;
 }
 
-
 /*career end*/
+
+
+/*news & events start*/
+#main_news_events{
+margin-left:203px;
+WIDTH: 960px;
+height: 600px;
+border:1px solid green;
+}
+
+#news_events{
+margin:auto;
+WIDTH: 600px;
+height: 500px;
+line-height:30px;
+}
+
+/*news & events end*/
