@@ -101,6 +101,17 @@ letter-spacing:0.5px;
 padding:32px 20px;
 text-align: justify;
 }
+
+#swf_video{
+background: url("../resource/bg_movie.jpg");
+width:312px;
+height:177px;
+position:relative;
+top: 216px;
+padding-top: 25px;
+font-size: 13px;
+margin-left: 650px;
+}
  
 
  #news_events{
@@ -121,7 +132,7 @@ height:200px;
 float:left;
 position:relative;
 top:24px;
-left:321px;
+left:324px;
 }
 
 #why_trust1{
@@ -137,7 +148,7 @@ text-align: justify;
 
 
 #video{
-width:316px;
+width:310px;
 height:200px;
 position: relative;
 top: 24px;
