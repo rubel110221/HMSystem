@@ -118,9 +118,6 @@ background: #248DC1;
  
  }
  
- 
- 
- 
 #header_menu{
 width:1362px;
 height: 65px;
@@ -128,3 +125,71 @@ position: absolute;
 top: 8px;
 padding-left: 50px;
 }
+
+
+
+
+/* Log in start*/
+
+
+
+#main_login{
+margin:auto;
+WIDTH: 960px;
+height: 665px;
+top:30px;
+border:1px solid green;
+
+}
+
+#main_content{
+WIDTH: 960px;
+height: 500px;
+position:relative;
+top:80px;
+border:1px solid green;
+
+background:url("../resource/login.png");
+}
+
+
+.lg-container{
+	width:240px;
+	margin:80px auto;
+	margin-left:320px;
+	padding:20px 20px;
+	border:1px solid #f4f4f4;
+	background:rgba(255,255,255,.5);
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	border-radius:10px;
+	
+	-webkit-box-shadow: 0 0 2px #aaa;
+	-moz-box-shadow: 0 0 2px #aaa;
+	box-shadow: 0 0 2px #aaa;
+}
+ #admin{
+    width:280px;
+	height:50px;
+	margin-left:310px;
+	font-size:20px;
+	text-align:center;
+}
+
+
+#button{
+	text-align:center;
+	position:relative;
+	top:10px;
+
+}
+
+
+
+#message{
+text-align:center;
+width:100%;
+margin-top:-30px;
+ }
+
+/* Log in end*/
