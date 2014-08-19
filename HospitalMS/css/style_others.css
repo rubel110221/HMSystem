@@ -75,6 +75,34 @@ height: 22px;
 width: 90px;
 }
 
+.sidebar{
+}
+#sidebar-left{
+
+}
+#sidebar-right{
+background:url("../resource/bg_main_service.jpg");
+float: right;
+padding-left: 50px;
+margin-top: -200px;
+width: 140px;
+height: 325px;
+position: relative;
+top: 218px;
+padding-top: 30px;
+margin-left: 650px;
+font-size: 13px;
+}
+#sidebar-right ul li{
+list-style:none;
+}
+#sidebar-right ul li a{
+
+font-weight: bold;
+line-height: 50px;
+margin-left: -60px;
+}
+
 #footer  {
 width:960px;
 height: 106px;
