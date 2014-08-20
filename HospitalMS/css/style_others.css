@@ -39,9 +39,6 @@ text-decoration:underline;
 color:red;
 }
 
-#why_trust1 a:hover{
-color: red;
-}
 
 #header{
 background: url("../resource/top_banar.jpg");
@@ -59,105 +56,55 @@ TEXT-ALIGN: left;
 BORDER-BOTTOM-STYLE:none;
 }
 
-.slider {width:544px
-width:544px;
-height:205px;
-float:left;
+
+#search {
+margin-left: 715px;
+margin-top: -76px;
 }
 
-#main_service{
-background: url("../resource/bg_main_ser.jpg");
-width:338px;
-height:159px;
-float:left;
-position:relative;
-left:10px;
-font-size: 13px;
-padding-top: 45px;
-padding-left:68px;
-font-weight:bold;
-
+#edit-text{
+margin-left: -140px;
+font-weight: bold;
 }
-#quick_link{
-background: url("../resource/bg_quick_link.jpg");
-width:312px;
-height:177px;
-position:absolute;
-top:316px;
-padding-top:25px;
-font-size:13px;
+#edit-search{
+height: 14px;
+width: 130px;
+}
+#edit-submit{
+height: 22px;
+width: 90px;
 }
 
-#our_physicans{
-background: url("../resource/bg_phy_part.jpg");
-width:272px;
-height:137px;
-float:left;
-position:relative;
-top:12px;
-left:-222px;
-font-size: 13px;
-letter-spacing:0.5px;
-padding:32px 20px;
-text-align: justify;
+.sidebar{
 }
+#sidebar-left{
 
-#swf_video{
-background: url("../resource/bg_movie.jpg");
-width:312px;
-height:177px;
-position:relative;
-top: 216px;
-padding-top: 25px;
-font-size: 13px;
-margin-left: 650px;
 }
- 
-
- #news_events{
-background: url("../resource/bg_news.jpg");
-width:312px;
-height:168px;
-position:absolute;
-top:529px;
-left:0px;
-font-size: 13px;
-padding-top: 32px;
-}
-
-#why_trust{
-background: url("../resource/bg_about.jpg");
-width:312px;
-height:200px;
-float:left;
-position:relative;
-top:24px;
-left:324px;
-}
-
-#why_trust1{
-width: 295px;
-float:left;
-padding: 3px 3px;
-position:relative;
-top:26px;
-left:5px;
-font-size: 13px;
-text-align: justify;
-}
-
-
-#video{
-width:310px;
-height:200px;
+#sidebar-right{
+background:url("../resource/bg_main_service.jpg");
+float: right;
+padding-left: 50px;
+margin-top: -200px;
+width: 140px;
+height: 325px;
 position: relative;
-top: 24px;
-float:right;
+top: 218px;
+padding-top: 30px;
+margin-left: 650px;
+font-size: 13px;
 }
+#sidebar-right ul li{
+list-style:none;
+}
+#sidebar-right ul li a{
 
+font-weight: bold;
+line-height: 50px;
+margin-left: -60px;
+}
 
 #footer  {
-width:1349px;
+width:960px;
 height: 106px;
 background:url("../resource/bg_footer.gif");
 position: absolute;
@@ -168,7 +115,7 @@ top:745px;
 width: 960px;
 height:30px;
 position:inherit;
-left:193px;
+left:-10px;
 line-height:0;
 text-align:center;
 color: white;
