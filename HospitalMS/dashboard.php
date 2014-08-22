@@ -5,12 +5,6 @@ if(isset($_SESSION['username']) && isset($_SESSION['password']))
 	return true;
 else return false;
 }
-session_start();
-if(!is_logged_in())
-{
-	header('Location:login.php');
-	die();
-}
 ?>
 <!DOCTYPE html>
 <html>

@@ -128,9 +128,7 @@ padding-left: 50px;
 
 
 
-
 /* Log in start*/
-
 
 
 #main_login{
@@ -139,7 +137,6 @@ WIDTH: 960px;
 height: 665px;
 top:30px;
 border:1px solid green;
-
 }
 
 #main_content{
@@ -152,9 +149,9 @@ border:1px solid green;
 background:url("../resource/login.png");
 }
 
-
 .lg-container{
 	width:240px;
+	height:83px;
 	margin:80px auto;
 	margin-left:320px;
 	padding:20px 20px;
@@ -163,7 +160,7 @@ background:url("../resource/login.png");
 	-webkit-border-radius:10px;
 	-moz-border-radius:10px;
 	border-radius:10px;
-	
+	line-height:30px;
 	-webkit-box-shadow: 0 0 2px #aaa;
 	-moz-box-shadow: 0 0 2px #aaa;
 	box-shadow: 0 0 2px #aaa;
@@ -176,15 +173,11 @@ background:url("../resource/login.png");
 	text-align:center;
 }
 
-
 #button{
 	text-align:center;
 	position:relative;
 	top:10px;
-
 }
-
-
 
 #message{
 text-align:center;
