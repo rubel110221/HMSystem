@@ -2,7 +2,7 @@
 <html>
 
 	<head>
-		<title>News event | Welcome To Square Hospital</title>
+		<title>Welcome To Square Hospital</title>
 		<link rel="shortcut icon" href="resource/icon.ico"/>
 		<link  type="text/css" rel="stylesheet" href="css/style.css"/>
 		<link  type="text/css" rel="stylesheet" href="css/New_Post_Css.css"/>

@@ -5,11 +5,13 @@ if(isset($_SESSION['username']) && isset($_SESSION['password']))
 	return true;
 else return false;
 }
+session_start();
+
 ?>
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Dashboard | Welcome To Square Hospital</title>
+		<title>Welcome To Square Hospital</title>
 		<link rel="shortcut icon" href="resource/icon.ico"/>
 		<link  type="text/css" rel="stylesheet" href="css/style.css"/>
 		<link  type="text/css" rel="stylesheet" href="css/New_Post_Css.css"/>

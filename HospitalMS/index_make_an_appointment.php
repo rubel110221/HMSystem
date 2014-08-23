@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Make an appointment | Welcome to SQUARE Hospital</title>
+		<title>Welcome to SQUARE Hospital</title>
 		<meta charset="utf-8"/>
 		<link  rel="stylesheet" href="css/style_others.css" />
 		<link rel="shortcut icon" href="resource/icon.ico"/>

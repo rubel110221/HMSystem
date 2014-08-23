@@ -15,7 +15,10 @@ if($count==1)
 }
 else
 {
-	header ('Location: login.php');
+    //echo "<script> alert ('Invalid Username o Password');   window.location.href ='login.php'</script>";
+	//$msg =" Error log in";
+
+	
 }
 
 ?>
