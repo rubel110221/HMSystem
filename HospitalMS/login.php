@@ -2,7 +2,7 @@
 <html>
 
 	<head>
-		<title>Welcome To Admin Panel</title>
+		<title>Login | Welcome To Admin Panel</title>
 		<link rel="shortcut icon" href="resource/icon.ico"/>
 		<link  type="text/css" rel="stylesheet" href="css/style.css"/>
 	</head>

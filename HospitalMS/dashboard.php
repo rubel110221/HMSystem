@@ -9,7 +9,7 @@ else return false;
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Welcome To Square Hospital</title>
+		<title>Dashboard | Welcome To Square Hospital</title>
 		<link rel="shortcut icon" href="resource/icon.ico"/>
 		<link  type="text/css" rel="stylesheet" href="css/style.css"/>
 		<link  type="text/css" rel="stylesheet" href="css/New_Post_Css.css"/>
