@@ -42,8 +42,6 @@ else
  }
 }
 
-
-
 /*
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
    if (empty($_POST["name"])) {
@@ -93,25 +91,11 @@ function test_input($data) {
 					</form>
 				</div>
 				<div id="message">
-				
-<?php echo  $messErr; $messErr=""; ?>
-
+                <span class="error"><?php echo  $messErr; ?></span>
 				</div>
 			 			 
 		</div>
 	</div>
 
-
-
-
-
-
-
-
-
-
-
-
-	
 </body>
 </html>	

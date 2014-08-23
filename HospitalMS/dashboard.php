@@ -1,12 +1,7 @@
 <?php 
-function is_logged_in()
-{
-if(isset($_SESSION['username']) && isset($_SESSION['password']))
-	return true;
-else return false;
-}
 session_start();
-
+if(!isset($_SESSION['username']) && !isset($_SESSION['password']))
+header("location:login.php");
 ?>
 <!DOCTYPE html>
 <html>
