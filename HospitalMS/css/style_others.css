@@ -76,20 +76,172 @@ width: 90px;
 }
 
 .sidebar{
+margin-top: 10px;
 }
 #sidebar-left{
+width:170px;
+}
+#border{
+border:1px solid #000;
+}
+#nav{
+font-size:14px;
+width:168px;
+}
+#nav ul{
+margin:0px;
+padding-top:0px;
+background:#9EC9B6;
+}
+#nav li{
+list-style:none;
+}
 
+ul.top-level{
+background:#666;
+margin:0;
+padding:0;
+}
+
+ul.top-level li{
+background:#fff solid;
+border-top:#000 solid;
+border-width:1px;
+}
+#nav a{
+color:#000;
+cursor:pointer;
+display:block;
+height:25px;
+line-height:25px;
+text-indent:5px;
+text-decoration:none;
+width:100%;
+}
+
+#nav a:hover{
+text-decoration:underline;
+}
+
+#nav li:hover{
+background:#BBDC95;
+position:relative;
+}
+
+ul.sub-level{
+display:none;
+margin:0;
+padding:0;
+}
+
+li:hover .sub-level{
+background:#9EC9B6;
+border:#fff solid;
+border-width:1px;
+display:block;
+position:absolute;
+left:75px;
+top:5px;
+}
+ul.sub-level li{
+float:left;
+width:200px;
+border-width:1px;
+}
+#nav .sub-level{
+background:#9EC9B6;
+margin-left:95px;
+}
+
+#nav .sub-level .sub-level{
+background:#9EC9B6;
+margin:0;
+padding:0;
+margin-left:125px;
+}
+
+li:hover .sub-level .sub-level{
+display:none;
+}
+.sub-level li:hover .sub-level{
+display:block;
+}
+
+.sidebar-bottom{
+border:1px solid #000;
+width:168px;
+height:48px;
+margin-top:10px;
+}
+
+
+.sidebar-bottom-text ul{
+background: #9EC9B6;
+margin:0;
+padding:0;
+}
+
+.sidebar-bottom-text ul li{
+list-style:none;
+width:150px;
+text-indent:5px;
+}
+
+.sidebar-bottom-text ul li a{
+color:#000;
+text-indent:5px;
+line-height:21px;
+
+}
+.sidebar-bottom-text ul li a:hover{
+background: #BBDC95;
+}
+
+.text{
+background:#A6D682;
+margin-bottom:-20px;
+margin-top:-20px;
+}
+
+.text1{
+background: #A6D682;
+}
+.h2{
+font-size: 12px;
+font-weight: bold;
+line-height: 20px;
+}
+
+
+#sidebar-middle{
+width:560px;
+margin:-470px 0px 224px 190px;
+}
+
+#sidebar-middle1{
+width:560px;
+margin:-470px 0px 0px 190px;
+}
+
+#sidebar-middle10{
+width:560px;
+margin:-470px 0px 220px 190px;
+}
+
+#description{
+font-size:14px;
 }
 #sidebar-right{
 background:url("../resource/bg_main_service.jpg");
 float: right;
 padding-left: 50px;
-margin-top: -200px;
+margin-top: -716px;
 width: 140px;
 height: 325px;
 position: relative;
 top: 218px;
 padding-top: 30px;
+margin-left: 770px;
 margin-left: 650px;
 font-size: 13px;
 }
@@ -108,6 +260,7 @@ width:960px;
 height: 106px;
 background:url("../resource/bg_footer.gif");
 position: absolute;
+top:630px
 top:745px;
 }
 
