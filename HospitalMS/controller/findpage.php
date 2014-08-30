@@ -1,0 +1,10 @@
+<?php
+	if(isset($_GET['p']))
+	{
+		require_once("view/".$_GET['p'].".php");
+	}
+	else
+	{
+		require_once('view/index.php');
+	}
+?>
