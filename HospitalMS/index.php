@@ -21,7 +21,7 @@
 					<a href="index.php">Home</a> |
 					<a href="index_make_an_appointment.php"> Make an Appointment</a> |
 					<a href="#"> About Us</a> |
-					<a href="#">Our Physicians</a> |
+					<a href="index_our_physicians.php">Our Physicians</a> |
 					<a href="#"> Promotion & Packages</a> |
 					<a href="#">Career</a> |
 					<a href="#">FAQ</a> |

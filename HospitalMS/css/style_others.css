@@ -247,9 +247,13 @@ border-collapse: collapse;
 }
 
 tr.odd{
+	height:100px;
+	text-align: center;
 background-color: #edf5fa;
 }
 tr.even {
+	height:100px;
+	text-align: center;
 background-color: #fff;
 }
 #sidebar-middle10{
@@ -263,11 +267,12 @@ font-size:14px;
 #sidebar-right{
 background:url("../resource/bg_main_service.jpg");
 float: right;
-margin-top: -274px;
+margin-top: -467px;
+padding-top: 30px;
 width: 190px;
 height: 325px;
 position: relative;
-padding-top: 30px;
+
 font-size: 13px;
 }
 #sidebar-right ul li{
@@ -285,7 +290,7 @@ width:960px;
 height: 106px;
 background:url("../resource/bg_footer.gif");
 position: absolute;
-top:610px;
+top:910px;
 }
 
 #footer_menu{
@@ -331,3 +336,9 @@ line-height:14px;
 word-spacing:3px;
 }
 
+
+.career_td
+{
+	border: 1px solid #CDC1A7;
+	height: 40px;
+}
