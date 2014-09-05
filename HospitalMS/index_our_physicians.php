@@ -52,13 +52,8 @@
      										if($oddEven%2==0)
      										{
      											echo "<tr class='odd'>";
-     											//echo "<td>"."<img width='67' height='100'  src='../resource/bg_movie.jpg'/>"."</td>";
-     											//$data = base64_decode($row[0]);
-     										//$imageData = $row['picture_data'];
-     										//echo $imageData;
-     											//echo "<td>".$data."</td>";
-     										//echo"<img src=index_our_physicians.php?id='6' width=200 height=150 border=0>";
-
+ 
+     											echo "<td>".'<img src="data:image/jpeg;base64,' . base64_encode($row['picture_data']) . '" width="55" height="65">'."</td>";
      											$title=$row['name'];
 												echo "<td>"."<a href='' title='$title'>".$row['name']. "</a>"."</td>";
 												echo "<td>".$row['designation']."</td>";
@@ -69,7 +64,7 @@
      										else
      										{
      											echo "<tr class='even'>";
-     											//echo "<td>"."<img width='67' height='100' alt="" src='resource/Physicians/sh.jpg' />"."</td>";
+     											echo "<td>".'<img src="data:image/jpeg;base64,' . base64_encode($row['picture_data']) . '" width="65" height="65">'."</td>";
      											$title=$row['name'];
 												echo "<td>"."<a href='' title='$title'>".$row['name']. "</a>"."</td>";
 												echo "<td>".$row['designation']."</td>";
