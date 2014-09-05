@@ -274,6 +274,11 @@ margin:-470px 0px 68px 190px;
 width:560px;
 margin:-470px 0px 68px 190px;
 }
+#sidebar-middle18{
+width:560px;
+float:centre;
+margin:-470px 0px 68px 190px;
+}
 .font{
 font-weight: bold;
 }
@@ -322,7 +327,7 @@ font-size:14px;
 #sidebar-right{
 background:url("../resource/bg_main_service.jpg");
 float: right;
-margin-top: -326px;
+margin-top: -368px;
 padding-top: 30px;
 width: 190px;
 height: 325px;
