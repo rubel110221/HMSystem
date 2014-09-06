@@ -18,6 +18,7 @@ header("location:login.php");
 			 
 			 <?php include 'headerAdmin.php';?>
 			 <?php include 'side_menuAdmin.php';?>
+			 <?php include 'appointment_list.php';?>
 		</div>		
 	</body>
 </html>

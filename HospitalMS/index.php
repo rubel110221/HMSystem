@@ -20,13 +20,13 @@
 				<div id="header_manu">
 					<a href="index.php">Home</a> |
 					<a href="index_make_an_appointment.php"> Make an Appointment</a> |
-					<a href="#"> About Us</a> |
+					<a href="index_about_us.php"> About Us</a> |
 					<a href="index_our_physicians.php">Our Physicians</a> |
-					<a href="#"> Promotion & Packages</a> |
-					<a href="#">Career</a> |
-					<a href="#">FAQ</a> |
-					<a href="#">Feedback</a> |
-					<a href="#">Donate Blood</a> |
+					<a href="index_promotion_packages.php"> Promotion & Packages</a> |
+					<a href="jobs.php">Career</a> |
+					<a href="index_FAQ.php">FAQ</a> |
+					<a href="index_feedback.php">Feedback</a> |
+					<a href="index_donate _blood.php">Donate Blood</a> |
 					<a href="#">View Blog </a> |
 					<a href="#" target="e-pay"><img src="resource/e-pay.png" alt="e-pay icon"/></a>
 				</div>
@@ -55,7 +55,7 @@
 			<div id="main_service">
 				<table>
 					 <tr >
-					 	<td ><a href="#">About Hospital</a></td>
+					 	<td ><a href="index_about_us.php">About Hospital</a></td>
 						<td><blockquote><a href="#">Outpatient Services</a></blockquote></td>
 					 </tr>
 					 <tr >
@@ -95,7 +95,7 @@
 			</div>
 			
 			<div id="swf_video">
-				<!param name="movie" value="sqr_video.swf" />
+				
 			</div>
 			
 			
