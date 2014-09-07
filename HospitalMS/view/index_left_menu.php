@@ -1,42 +1,5 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>Make an Appointment | Welcome to SQUARE Hospital</title>
-		<meta charset="utf-8"/>
-		<link  rel="stylesheet" href="css/style_others.css" />
-		<link rel="shortcut icon" href="resource/icon.ico"/>
-	</head>
 
-	<body>
-		<div id="main">
-		
-			<div id="header" >
-				<div id="header_manu">
-					<a href="index.html">Home</a> |
-					<a href="index_make_an_appointment.html"> Make an Appointment</a> |
-					<a href="index_about_us.html"> About Us</a> |
-					<a href="index_our_physicians.html">Our Physicians</a> |
-					<a href="index_promotion_packages.html"> Promotion & Packages</a> |
-					<a href="index_career.html">Career</a> |
-					<a href="index_FAQ.html">FAQ</a> |
-					<a href="index_feedback.html">Feedback</a> |
-					<a href="index_donate_blood.html">Donate Blood</a> |
-					<a href="index_view_blog.html">View Blog </a> |
-					<a href="index_epay.html" target="e-pay"><img src="resource/e-pay.png" alt="e-pay icon"/></a>
-				</div>
-				
-				<div id ="search">
-					<div>
-						<label id="edit-text">Search this site:</label>
-					    <input id="edit-search"  type="text" title="Enter the terms you wish to search for." value="" size="15" name="search_theme_form" maxlength="128"></input>
-						
-						<input id="edit-submit" type="submit" value="Search" name="op"></input>
-
-					</div>
-				</div>
-		   </div>
 			
-			<div class="sidebar">
 				 <div id="sidebar-left">
 					<div id="border">
 						<div class="text">
@@ -45,9 +8,9 @@
 						
 						<div id="nav">
 							<ul class="top-level">
-								<li><a href="#">About us</a>
+								<li><a href="../view/mainmenu_about_us.php">About us</a>
 									<ul class="sub-level">
-										<li><a href="#">A Few Words</a></li>
+										<li><a href="">A Few Words</a></li>
 										<li><a href="#">Founder Chairman&#039;s Profile</a></li>
 										<li><a href="#">About Square Group</a></li>
 										<li><a href="#">Management of Square Hospital</a></li>
@@ -55,7 +18,7 @@
 										<li><a href="#">Mission</a></li>
 									</ul>
 								</li>
-								<li><a href="#">Hospital And Its Service</a>
+								<li><a href="../view/mainmenu_hospital_and_its_service.php">Hospital And Its Service</a>
 									<ul class="sub-level">
 										<li><a href="#">A Few Words</a></li>
 										<li><a href="#">Outpatient Services</a></li>
@@ -161,14 +124,14 @@
 								<li><a href="#">FAQ</a></li>
 								
 								
-								<li><a href="mainmenu_useful_inks">Useful Links</a>
+								<li><a href="#">Useful Links</a>
 									<ul class="sub-level">
-										<li><a href="usefullink_mergency_umbers">Emergency Numbers</a></li>
-										<li><a href="usefullink_find_a_doctor">Find a doctor</a></li>
-										<li><a href="usefullink_ask_a_question">Ask a Question</a></li>
-										<li><a href="usefullink_make_an_appointment">Make an Appointment</a></li>
-										<li><a href="usefullink_health_checkup">Health Checkup</a></li>
-										<li><a href="usefullink_brochures">Brochures (PDF file)</a></li>
+										<li><a href="#">Emergency Numbers</a></li>
+										<li><a href="#">Find a doctor</a></li>
+										<li><a href="#">Ask a Question</a></li>
+										<li><a href="#">Make an Appointment</a></li>
+										<li><a href="#">Health Checkup</a></li>
+										<li><a href="#">Brochures (PDF file)</a></li>
 									</ul>
 								</li>
 								
@@ -190,57 +153,3 @@
 						</div>
 					</div>
 				</div>
-				
-				<div id="sidebar-middle13">
-					<div class="breadcrumb">
-						<a href="index.html">Home</a>
-					</div>
-					<div id="description">
-						<h2>Our Partners</h2>
-						
-						<ul>
-						<li><a href="">Affiliated Partner</a></li>
-						<li><a href="">Corporate Partners</a></li>								
-						</ul>
-					
-					</div>
-				</div>
-							 
-				<div id="sidebar-right">
-					<ul>
-						<li><a href="index_about_us.html">About Hospital</a></li>
-						<li><a href="index_corporate.html">Corporate</a></li>
-						<li><a href="index_opd_service.html">OPD Services</a></li>
-						<li><a href="index_ipd_service.html">IPD Services</a></li>
-						<li><a href="index_ancillary_services.html">Ancillary Services</a></li>
-						<li><a href="index_support_services.html">Support Services</a></li>		
-					</ul>	
-				</div>	 
-			</div>	 
-		
-			<div id="footer">
-		  
-				<div id="footer_menu">
-			       <ul>
-						<li><a href="index_download.html">Download</a></li>
-						<li><a href="index_our_partners.html">Our Partners </a></li>
-						<li><a href="index_useful_links.html">Useful Links </a></li>
-						<li><a href="index_quick_links.html">Quick Links</a></li>
-						<li><a href="index_web_mail.html">Web Mail</a></li>
-						<li><a href="login.php" target="_blank">Official Log in</a></li>
-						<li><a href="index_about_us.html">About Us</a></li>
-						<li><a href="index_contact_us.html">Contact Us</a></li>
-					</ul>	
-			    </div>
-				<div id=footer_text>
-					<p>18F, Bir Uttam Qazi Nuruzzaman Sarak, West Panthapath, Dhaka 1205<br/>
-					Phone: (880-2) 8159457, 8142431, Mobile: 01713141447 (PABX), PABX for OPD Appointment: 2001, 2002 & 2018<br/>
-					24hr Emergency and Ambulance service: 8144466, 8144477, 8144488<br/>
-					ER Mobile: 01713377773-5, Fax: (880-2) 9118921, 9114342, email: info@squarehospital.com, web: www.squarehospital.com<br/>
-                  </p>
-				</div>
-		    </div>
-		</div>
-		
-	</body>
- </html>

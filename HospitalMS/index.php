@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Welcome to SQUARE Hospital</title>
+		<title>Welcome to Khulna Medical College & Hospital</title>
 		<meta charset="utf-8"/>
 		<link  rel="stylesheet" href="css/page-front.css" />
 		<link rel="shortcut icon" href="resource/icon.ico"/>
@@ -17,16 +17,17 @@
 		<div id="main">
 		
 			<div id="header" >
+			
 				<div id="header_manu">
 					<a href="index.php">Home</a> |
-					<a href="index_make_an_appointment.php"> Make an Appointment</a> |
-					<a href="index_about_us.php"> About Us</a> |
-					<a href="index_our_physicians.php">Our Physicians</a> |
-					<a href="index_promotion_packages.php"> Promotion & Packages</a> |
-					<a href="jobs.php">Career</a> |
-					<a href="index_FAQ.php">FAQ</a> |
-					<a href="index_feedback.php">Feedback</a> |
-					<a href="index_donate _blood.php">Donate Blood</a> |
+					<a href="view/index_make_an_appointment.php"> Make an Appointment</a> |
+					<a href="view/index_about_us.php"> About Us</a> |
+					<a href="view/index_our_physicians.php">Our Physicians</a> |
+					<a href="view/index_promotion_packages.php"> Promotion & Packages</a> |
+					<a href="view/jobs.php">Career</a> |
+					<a href="view/index_FAQ.php">FAQ</a> |
+					<a href="view/index_feedback.php">Feedback</a> |
+					<a href="view/index_donate_blood.php">Donate Blood</a> |
 					<a href="#">View Blog </a> |
 					<a href="#" target="e-pay"><img src="resource/e-pay.png" alt="e-pay icon"/></a>
 				</div>
@@ -141,7 +142,7 @@
 						<li><a href="#">Useful Links </a></li>
 						<li><a href="#">Quick Links</a></li>
 						<li><a href="#">Web Mail</a></li>
-						<li><a href="login.php" target="_blank">Official Log in</a></li>
+						<li><a href="view/login.php" target="_blank">Official Log in</a></li>
 						<li><a href="#">About Us</a></li>
 						<li><a href="#">Contact Us</a></li>
 					</ul>	
